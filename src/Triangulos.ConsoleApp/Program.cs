@@ -18,10 +18,12 @@
             if (triangulo.eValido())
             {
                 Console.WriteLine(triangulo.TipoTriangulo());
+                Console.ReadLine();
             }
             else
             {
                 Console.WriteLine("Os valores fornecidos não formam um triângulo.");
+                Console.ReadLine();
             }
         }
     }
